@@ -4,12 +4,17 @@
     margin-bottom: 10px;
 }
 
+.table {
+    margin-bottom: 0px;
+}
+
 .table th {
     background-color: rgb(231, 238, 235);
 }
 
 .users-table {
     background-color: #F3F8FF;
+    border: 1px solid darkgray;
 }
 
 .users-table header {

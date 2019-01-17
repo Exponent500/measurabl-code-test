@@ -1,0 +1,44 @@
+#side-nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(231, 238, 235);
+    overflow-x: hidden;
+    transition: left .3s;
+    padding-top: 60px;
+    padding-left: 0px;
+    margin-top: 10px;
+    border-right: 1px solid lightgray;
+}
+
+#side-nav a {
+    text-decoration: none;
+    color: #0E1C2C;
+    display: block;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+#side-nav a:hover {
+    border-left: 3px solid #303D51;
+    background-color: white;
+}
+
+#side-nav a p {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #303D51;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    #side-nav {
+        left: -200px;
+    }
+}
