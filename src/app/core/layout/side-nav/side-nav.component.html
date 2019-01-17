@@ -1,14 +1,14 @@
 <section id="side-nav">
-    <a routerLink="/">
+    <a routerLink="/" routerLinkActive="menu-item-active" [routerLinkActiveOptions]="{exact: true}">
         <p>Dashboard</p>
     </a>
-    <a routerLink="/">
+    <a routerLink="/data" routerLinkActive="menu-item-active" [routerLinkActiveOptions]="{exact: true}">
         <p>Data</p>
     </a>
-    <a routerLink="/">
+    <a routerLink="/trends" routerLinkActive="menu-item-active" [routerLinkActiveOptions]="{exact: true}">
         <p>Trends</p>
     </a>
-    <a routerLink="/">
+    <a routerLink="/reports" routerLinkActive="menu-item-active" [routerLinkActiveOptions]="{exact: true}">
         <p>Reports</p>
     </a>
 </section>

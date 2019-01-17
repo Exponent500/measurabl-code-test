@@ -21,6 +21,7 @@
     padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
+    margin-top: 5px;
     cursor: pointer;
 }
 
@@ -35,6 +36,11 @@
     color: #303D51;
     font-size: 15px;
     margin-bottom: 0px;
+}
+
+.menu-item-active {
+    border-left: 3px solid #2DB892;
+    background-color: white;
 }
 
 @media screen and (max-width: 768px) {

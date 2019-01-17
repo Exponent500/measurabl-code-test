@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { HeaderComponent } from './layout/header/header.component';
 import { UserService } from '../shared/user/user.service';
@@ -11,6 +12,7 @@ import { SideNavComponent } from './layout/side-nav/side-nav.component';
         FooterComponent,
         SideNavComponent
     ],
+    imports: [RouterModule],
     exports: [
         HeaderComponent,
         FooterComponent,
