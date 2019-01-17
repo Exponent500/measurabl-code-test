@@ -7,15 +7,7 @@ import { catchError } from 'rxjs/operators';
 import { User, UserAge, UserFullName } from './interfaces';
 
 const BASE_URL = 'https://api.myjson.com/bins/';
-/**
- * Assumptions:
- * 1. No authentication needed for these endpoints
- * 2. Each endpoint returns an empty array if there is no data to be provided
- * 3. If there is data returned from the endpoints, then:
- *      a.  the objects within the response will always have all the keys defined within the interfaces described
- *          above (for example, the User Age response will always have an id and age property within each object returned)
- *      b.  the objects within the response will never have null values for any of the keys.
- */
+
 export const GET_USERS_AGE_URL = `${BASE_URL}xqrsi`;
 export const GET_USERS_FULLNAME_URL = `${BASE_URL}szaya`;
 
