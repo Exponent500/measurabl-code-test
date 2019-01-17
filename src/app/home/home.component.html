@@ -1,0 +1,27 @@
+<header class="page-title">
+    Dashboard
+</header>
+<section class="users-table">
+    <header>Users</header>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th class="id">ID</th>
+                <th class="first-name">First Name</th>
+                <th class="last-name">Last Name</th>
+                <th class="age">Age</th>
+            </tr>
+        </thead>
+        <tbody class="table-body">
+            <tr *ngFor="let user of users; let i=index">
+                <td>{{user.id}}</td>
+                <td *ngIf="user.firstName; else fieldDoesNotExist">{{user.firstName}}</td>
+                <td *ngIf="user.lastName; else fieldDoesNotExist">{{user.lastName}}</td>
+                <td *ngIf="user.age; else fieldDoesNotExist">{{user.age}}</td>
+                <ng-template #fieldDoesNotExist>
+                    <td>N/A</td>
+                </ng-template>
+            </tr> 
+        </tbody>
+    </table>
+</section>

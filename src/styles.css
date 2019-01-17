@@ -1,0 +1,64 @@
+/*
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Yellow Design Studio. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2014 Yellow Design Studio
+ *
+ *
+ *
+ *
+ */
+
+ @font-face {
+    font-family: 'verbcondregular';
+    src: url('./assets/fonts/verbcondregular-webfont.eot');
+    src: url('./assets/fonts/verbcondregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/verbcondregular-webfont.woff') format('woff'),
+         url('./assets/fonts/verbcondregular-webfont.ttf') format('truetype'),
+         url('./assets/fonts/verbcondregular-webfont.svg#verbcondregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verblight_italic';
+    src: url('./assets/fonts/verblight-italic-webfont.eot');
+    src: url('./assets/fonts/verblight-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/verblight-italic-webfont.woff') format('woff'),
+         url('./assets/fonts/verblight-italic-webfont.ttf') format('truetype'),
+         url('./assets/fonts/verblight-italic-webfont.svg#verblight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verbcondregular_italic';
+    src: url('./assets/fonts/verbcondregular-italic-webfont.eot');
+    src: url('./assets/fonts/verbcondregular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/verbcondregular-italic-webfont.woff') format('woff'),
+         url('./assets/fonts/verbcondregular-italic-webfont.ttf') format('truetype'),
+         url('./assets/fonts/verbcondregular-italic-webfont.svg#verbcondregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verblight';
+    src: url('./assets/fonts/verblight-webfont.eot');
+    src: url('./assets/fonts/verblight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/verblight-webfont.woff') format('woff'),
+         url('./assets/fonts/verblight-webfont.ttf') format('truetype'),
+         url('./assets/fonts/verblight-webfont.svg#verblight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    font-family: 'verbcondregular', helvetica, arial, sans-serif;
+    background-color: #DCD9C8;
+}

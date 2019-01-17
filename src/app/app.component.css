@@ -1,0 +1,12 @@
+#main-container {
+    background-color: #DCD9C8;
+    padding-top: 50px;
+}
+
+.content-container {
+    background-color: #DCD9C8;
+    min-height: 820px;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 20px;
+}

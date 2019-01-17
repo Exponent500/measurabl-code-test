@@ -1,0 +1,27 @@
+.container {
+    max-width: 1366px;
+    width: auto;
+}
+
+nav {
+    background-color: #303D51;
+}
+
+a {
+    color: #2DB892;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    height: 60px;
+}
+
+.logo {
+    display: inline;
+    /* vertical-align: middle; */
+    margin-right: 10px;
+    width: 65px;
+    height: 35px;
+}
